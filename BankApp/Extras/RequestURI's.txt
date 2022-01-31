@@ -1,0 +1,55 @@
+Use Postman or similar app to construct and send requests
+
+POST
+/customer
+{
+  "acctID":"123",
+  "custName":"Kiran",
+  "city":"Thrissur",
+  "state":"Kerala",
+  "country":"India",
+  "phoneNo":"899899890",
+  "password":"123"
+  
+}
+
+POST
+/customer
+{
+  "acctID":"124",
+  "custName":"Karthik",
+  "city":"Thrissur",
+  "state":"Kerala",
+  "country":"India",
+  "phoneNo":"899899890",
+  "password":"123"
+  
+}
+
+DELETE
+/customer/{acctID}
+/account/{acctID}
+
+GET
+/customer/{acctID}
+/account/{acctID}/balance
+/account/{acctID}
+/account/{acctID}/logs
+
+PUT
+/account/{acctID}/deposit/{amount}
+/account/{acctID}/withdraw/{amount}
+/account/{acctID}/transfer/{destAcctID}/{amount}
+
+
+
+
+
+
+
+
+
+
+
+
+
